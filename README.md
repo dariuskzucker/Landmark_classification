@@ -10,5 +10,10 @@ Hyperparameter tuning: Used a large weight decay to prevent to prevent overfitti
 Model architectures: Implemented a custom CNN with 3 convolutional layers. Ended up shuffling between Resnet architectures, with Resnet-18 providing the best balance between bias and variance.
 Neural Net Heatmap Visualizations: Used [Grad-Cam]([url](https://github.com/jacobgil/pytorch-grad-cam))'s 
 
+<img width="346" alt="Screenshot 2023-11-21 at 1 47 06 PM" src="https://github.com/dariuskzucker/Landmark_classification/assets/33701468/fd875005-0913-4b7c-90de-e10f5540ebc6">
+<img width="341" alt="Screenshot 2023-11-21 at 1 47 25 PM" src="https://github.com/dariuskzucker/Landmark_classification/assets/33701468/93c72e99-de96-4291-8e89-780371bd3b97">
+<img width="340" alt="Screenshot 2023-11-21 at 1 47 36 PM" src="https://github.com/dariuskzucker/Landmark_classification/assets/33701468/bcb62a27-115c-452f-bff4-e2664459d0a9">
+
+
 
 Colosseum, Petronas Towers, Rialto Bridge, Museu Nacional d'Art de Catalunya, St Stephen's Cathedral in Vienna, Berlin Cathedral, Hagia Sophia, Gaudi Casa Batllo in Barcelona
