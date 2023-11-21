@@ -1,7 +1,4 @@
 """
-EECS 445 - Introduction to Machine Learning
-Fall 2023 - Project 2
-
 Landmarks Dataset
     Class wrapper for interfacing with the dataset of landmark images
     Usage: python dataset.py
