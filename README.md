@@ -29,16 +29,28 @@ Pantheon:
 <img width="342" alt="Screenshot 2023-11-21 at 1 48 22 PM" src="https://github.com/dariuskzucker/Landmark_classification/assets/33701468/21b14a53-cad6-4dd4-96fa-d65c28751634">
 
 
-#### Transfer learning: Trained a source model to classify 8 other landmarks (The Colosseum, Petronas Towers, Rialto Bridge, Museu Nacional d'Art de Catalunya, St Stephen's Cathedral in Vienna, Berlin Cathedral, Hagia Sophia, Gaudi Casa Batllo in Barcelona).
-Froze convolutional layers and retrained on binary target task.
+#### Transfer learning:
+
+- Trained a source model to classify 8 other landmarks (The Colosseum, Petronas Towers, Rialto Bridge, Museu Nacional d'Art de Catalunya, St Stephen's Cathedral in Vienna, Berlin Cathedral, Hagia Sophia, Gaudi Casa Batllo in Barcelona).
+- Froze convolutional layers and retrained on binary target task.
 
 
 
-#### Hyperparameter tuning: Used a large weight decay to prevent to prevent overfitting, StepLR scheduler to employ a decreasing learning rate, experimented freezing different source model layers. Found cross entropy loss with Adam optimizer to work best for this task.
+#### Hyperparameter tuning:
 
-#### Model architectures: Implemented a custom CNN with 3 convolutional layers. Ended up shuffling between Resnet architectures, with Resnet-18 providing the best balance between bias and variance.
+  - Used a large weight decay to prevent to prevent overfitting
+  - StepLR scheduler to employ a decreasing learning rate
+  - Experimented freezing different source model layers
+  - Found cross entropy loss with Adam optimizer to work best for this task.
 
-#### Neural Net Heatmap Visualizations: Used [Grad-Cam]([url](https://github.com/jacobgil/pytorch-grad-cam)) to visualize what CNN was learning. Found evidence of overfitting and changed accordingly.
+#### Model architectures:
+  - Implemented a custom CNN with 3 convolutional layers.
+  - Ended up shuffling between Resnet architectures, with Resnet-18 providing the best balance between bias and variance.
+
+#### Neural Net Heatmap Visualizations:
+
+  - Used [Grad-Cam]([url](https://github.com/jacobgil/pytorch-grad-cam)) to visualize what CNN was learning.
+  - Found evidence of overfitting and changed accordingly.
 
 
 
