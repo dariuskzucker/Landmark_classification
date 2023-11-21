@@ -1,7 +1,4 @@
 """
-EECS 445 - Introduction to Machine Learning
-Fall 2023 - Project 2
-
 Source CNN
     Constructs a pytorch model for a convolutional neural network
     Usage: from model.source import Source
