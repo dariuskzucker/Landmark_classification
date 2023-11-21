@@ -1,7 +1,4 @@
 """
-EECS 445 - Introduction to Machine Learning
-Fall 2023 - Project 2
-
 Train CNN
     Train a convolutional neural network to classify images
     Periodically output training information, and save model checkpoints
