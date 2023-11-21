@@ -1,6 +1,4 @@
 """
-EECS 445 - Introduction to Machine Learning
-Fall 2023  - Project 2
 Grad-CAM Visualization
     This script generates a heat map on top of the original image for 20 
     sample images in the dataset to help visualize what is learned by
