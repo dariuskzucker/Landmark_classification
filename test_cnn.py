@@ -1,7 +1,4 @@
 """
-EECS 445 - Introduction to Machine Learning
-Fall 2023 - Project 2
-
 Test CNN
     Test our trained CNN from train_cnn.py on the heldout test data.
     Load the trained CNN model from a saved checkpoint and evaulates using
