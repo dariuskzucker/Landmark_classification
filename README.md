@@ -1,6 +1,6 @@
 # European Landmark Classification
 
-## Goal: Binary classifcation between the Hofsburg Imperial Palace and the Pantheon.
+## Goal: Binary classification between the Hofsburg Imperial Palace and the Pantheon.
 
 Hofsburg:
 
