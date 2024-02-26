@@ -38,7 +38,7 @@ Pantheon:
 
 #### Hyperparameter tuning:
 
-  - Used a large weight decay to prevent to prevent overfitting
+  - Used a large weight decay to prevent overfitting
   - StepLR scheduler to employ a decreasing learning rate
   - Experimented freezing different source model layers
   - Found cross entropy loss with Adam optimizer to work best for this task.
